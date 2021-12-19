@@ -1,6 +1,8 @@
 # eSamudaay-Assignment
 The API will take as input items ordered, delivery distance, and offer applied. The response is the total order value.
+
 Instructions to run the code: 
+
 1.Using Terminal set up the application server by typing node app.js or nodemon app.s
 
 2.Open Postman and add raw data(input of API) in json format and make a post request on the required url (As in this case it runs locally therefore, url is https://localhost:3000/orders)
@@ -8,6 +10,7 @@ Instructions to run the code:
 3.As an API response total order value is printed on postman client in JSON.
 
 Modules Used:
+
 The Node Js Framwork used in buiding this is Express js, 
 
 Data is stored in mongodb database(here named orderdb) as in this case connection is provided through mongoose.
